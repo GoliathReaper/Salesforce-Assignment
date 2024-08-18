@@ -7,15 +7,18 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    backdrop-filter: blur(10px); /* Optional background blur */
 }
 
 .main {
-    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.2); /* Semi-transparent background */
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     width: 400px;
     text-align: center;
+    backdrop-filter: blur(15px); /* Adds the glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional border */
 }
 
 h1 {
